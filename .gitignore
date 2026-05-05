@@ -1,3 +1,10 @@
 data/raw/export.xml
 data/raw/
 *.xml
+data/raw/
+data/processed/
+*.xml
+*.csv
+.DS_Store
+__pycache__/
+*.pyc
