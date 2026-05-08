@@ -8,3 +8,5 @@ data/processed/
 .DS_Store
 __pycache__/
 *.pyc
+.venv
+.env
