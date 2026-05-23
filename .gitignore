@@ -5,6 +5,8 @@ data/raw/
 data/processed/
 *.xml
 *.csv
+data/manual/
+*.csv
 .DS_Store
 __pycache__/
 *.pyc
