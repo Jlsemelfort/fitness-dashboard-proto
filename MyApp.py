@@ -8,7 +8,11 @@ import plotly.graph_objects as go
 import streamlit as st
 
 
+
 st.set_page_config(page_title="HYROX Training Dashboard", page_icon="🏃", layout="wide")
+
+weekly = pd.read_csv("scripts/data/processed/weekly_running_summary.csv")
+
 
 
 PROCESSED_DIR = Path("data/processed")
